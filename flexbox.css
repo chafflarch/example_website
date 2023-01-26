@@ -1,0 +1,52 @@
+.twitter-post{
+  display:flex;
+  flex-direction:row;
+  height:200px;
+  width:400px;
+ 
+
+}
+
+.profile-picture-column{
+  margin-right:10px;
+}
+
+.profile-picture{
+  width:40px;
+  border-radius:20px;
+
+}
+
+.post-info{
+  max-width:360px;
+  
+  
+  
+}
+
+.text-body{
+
+  
+}
+
+.post-metadata{
+  display:flex;
+  flex-direction:row;
+}
+
+.profile-name{
+  font-weight:bold;
+}
+
+.profile-identifyier{
+  color:lightslategrey;
+}
+
+
+.youtube-link{
+  display:flex;
+  border-radius:10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+  height:100px;
+  
+}

@@ -1,0 +1,37 @@
+P {
+
+  font-family: Roboto;
+}
+
+.video-title{
+
+  font-size: 30px; 
+  font-weight: bold;
+  width:300px;
+  line-height:24px;
+
+}
+
+.apple-text{
+  font-size:14px ;
+  background-color: rgb(27,65,64);
+  color:white;
+  text-align:center;
+  padding-top:18px;
+  padding-bottom:18px;
+  
+
+}
+
+.shop-link{
+  cursor:pointer;
+  margin-left:10px;
+  transition:text-decoration 1s;
+
+}
+
+.shop-link:hover{
+  text-decoration:underline;
+  
+
+}

@@ -1,0 +1,44 @@
+.stretch-button {
+    
+  background-color:#004500;
+  cursor:pointer;
+  padding-top: 7px;
+  padding-bottom:7px ; 
+  padding-right: 10px;
+  padding-left: 10px; 
+  border:non;
+
+  transition:padding-top 0.5s,padding-bottom 0.5s,padding-left 0.5s,padding-right 0.5s ;
+  color:white;
+
+}
+
+.stretch-button:hover{
+
+  padding-top: 14px;
+  padding-bottom:14px ; 
+  padding-right:20px ;
+  padding-left:20px ; 
+
+
+
+}
+.shadow-button{
+
+  box-shadow:8px 8px 8px rgba(0,0,0,1);
+  background-color:#004500;
+  cursor:pointer;
+
+
+
+
+}
+
+.shadow-button:active{
+
+  margin-top: 8px;
+  margin-left:8px;
+  box-shadow:0 0 0 black;
+
+
+}

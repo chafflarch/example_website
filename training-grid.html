@@ -1,0 +1,140 @@
+<!DOCTYPE>
+
+<html>
+  <head>
+
+    <title>
+      Training Grid
+    </title>
+
+    <style>
+
+      .profile-grid{
+
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        
+
+
+      }
+
+      .profile{
+        box-shadow:0 0 10px rgba(0,0,0,0.25);
+        max-width:300px;
+        
+        Height: 400px;
+
+
+      }
+
+      .button-add-friend{
+        background-color: blue;
+        font-size: 14px;
+        color:white;
+        padding-left:20px;
+        padding-right:20px;
+        padding-top:7px;
+        padding-bottom:7px;
+        border-radius: 2px;
+        border-style:none;
+        
+      }
+
+      .profile-second-row{
+        display:grid;
+        grid-template-columns: 50px 1fr;
+        margin-top:10px;
+        margin-bottom:10px;
+        column-gap:20px;
+
+      }
+
+      .small-picture{
+        border-radius:25px;
+        width:100%;
+        height:50px;
+        object-fit:cover;
+        
+      }
+
+      .big-picture{
+        width:100%;
+      }
+
+      .profile-name{
+        color:black;
+        font-weight:700;
+      }
+      
+    </style>
+
+
+   
+   
+
+
+
+  </head>
+
+  <body>
+
+
+    <div class="profile-grid">
+
+      <div class="profile">
+        <div class="profile-picture">
+
+          <img class="big-picture" src="thumbnails/thumbnail-2.webp">
+
+
+        </div>
+
+        <div class="profile-content">
+          <div >
+
+            <p class="profile-name">Oliver</p>
+
+          </div>
+
+          <div class="profile-second-row">
+            <div>
+              <img class="small-picture" src="thumbnails/thumbnail-1.webp">
+
+            </div>
+
+            <div>
+              <p class="number-friend-text">
+                2 mutual friends
+              </p>
+            </div>
+
+
+          </div>
+
+          <div >
+            <button class="button-add-friend"> Add Friend</button>
+            
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+      
+
+
+    </div>
+
+
+  </body>
+
+
+</html>

@@ -1,0 +1,177 @@
+
+
+.header{
+  height:55px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  background-color:white;
+  border-bottom-width:1px;
+  border-bottom-style:solid;
+  border-bottom-color:rgb(207, 207, 207);
+  z-index:100;
+
+
+  
+
+
+}
+
+
+.left-section{
+
+  display:flex;
+  align-items:center;
+}
+
+
+.hamburger-menu{
+  height:24px;
+  margin-left:20px;
+  margin-right:20px;
+
+}
+
+.youtube-logo{
+  height:20px
+}
+
+.middle-section{
+  
+  flex: 1;
+  margin-left:70px;
+  margin-right:35px;
+  max-width:500px;  
+  display:flex;
+  align-items:center;
+ 
+
+}
+
+.search-bar{
+  flex:1;
+  height:34px;
+  padding-left:10px;
+  font-size:16px;
+  border-style:solid;
+  border-color:rgb(172, 159, 159);
+  border-radius:2px;
+  border-width:1px;
+  box-shadow:inset 1px 2px 3px rgba(0,0,0,0.05);
+  width:0;
+
+}
+
+.search-bar::placeholder{
+  font-family:Roboto,Arial;
+  font-size:16px;
+
+  
+
+}
+
+.search-icon{
+  margin-top:4px;
+  height:25px;
+}
+
+
+.search-button{
+  height:38px;
+  width:60px;
+  background-color:rgb(240,240,240);
+  border-style:solid;
+  border-color:rgb(172, 159, 159);
+  border-radius:2px;
+  border-width:1px;
+  margin-left:-1px;
+  position:relative;
+}
+
+.search-button .tooltip{
+  position:absolute;
+  background-color:grey;
+  color:white;
+  opacity:0;
+  transition:opacity 0.15s;
+  pointer-events:none;
+}
+
+.search-button:hover .tooltip{
+  opacity:1;
+
+}
+
+
+.voice-search-button{
+
+  height:40px;
+  width:40px;
+  margin-left:10px;
+  border-radius:20px;
+  border:none;
+
+
+}
+
+.voice-search-icon{
+  height:22x;
+  margin-top:4px;
+ 
+
+
+}
+
+.right-section{
+  
+  width:180px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-right:20px;
+  flex-shrink:0;
+  
+}
+
+.notifications-icon-container{
+  position:relative;
+
+
+}
+
+.notifications-count{
+  position:absolute;
+  background-color:red;
+  width:14px;
+  height:14px;
+  text-align:center;
+  border-radius: 7px;
+  color:white;
+  right:-3px;
+  top:-3px;
+  font-size:12px;
+  font-family:Roboto,Arial;
+
+}
+
+.upload-icon{
+  height:24px;
+}
+
+.youtube-apps-icon{
+  height:24px;
+}
+
+.notifications-icon{
+  height:24px;
+}
+
+.current-user-picture{
+  height:32px;
+  border-radius:16px;
+
+}
